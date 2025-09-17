@@ -1,0 +1,28 @@
+C:\Users\gusrm\OneDrive\바탕 화면\vscode pr\StudentInfoApp\bin\Debug\net8.0\StudentInfoApp.exe
+C:\Users\gusrm\OneDrive\바탕 화면\vscode pr\StudentInfoApp\bin\Debug\net8.0\StudentInfoApp.deps.json
+C:\Users\gusrm\OneDrive\바탕 화면\vscode pr\StudentInfoApp\bin\Debug\net8.0\StudentInfoApp.runtimeconfig.json
+C:\Users\gusrm\OneDrive\바탕 화면\vscode pr\StudentInfoApp\bin\Debug\net8.0\StudentInfoApp.dll
+C:\Users\gusrm\OneDrive\바탕 화면\vscode pr\StudentInfoApp\bin\Debug\net8.0\StudentInfoApp.pdb
+C:\Users\gusrm\OneDrive\바탕 화면\vscode pr\StudentInfoApp\obj\Debug\net8.0\StudentInfoApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gusrm\OneDrive\바탕 화면\vscode pr\StudentInfoApp\obj\Debug\net8.0\StudentInfoApp.AssemblyInfoInputs.cache
+C:\Users\gusrm\OneDrive\바탕 화면\vscode pr\StudentInfoApp\obj\Debug\net8.0\StudentInfoApp.AssemblyInfo.cs
+C:\Users\gusrm\OneDrive\바탕 화면\vscode pr\StudentInfoApp\obj\Debug\net8.0\StudentInfoApp.csproj.CoreCompileInputs.cache
+C:\Users\gusrm\OneDrive\바탕 화면\vscode pr\StudentInfoApp\obj\Debug\net8.0\StudentInfoApp.dll
+C:\Users\gusrm\OneDrive\바탕 화면\vscode pr\StudentInfoApp\obj\Debug\net8.0\refint\StudentInfoApp.dll
+C:\Users\gusrm\OneDrive\바탕 화면\vscode pr\StudentInfoApp\obj\Debug\net8.0\StudentInfoApp.pdb
+C:\Users\gusrm\OneDrive\바탕 화면\vscode pr\StudentInfoApp\obj\Debug\net8.0\StudentInfoApp.genruntimeconfig.cache
+C:\Users\gusrm\OneDrive\바탕 화면\vscode pr\StudentInfoApp\obj\Debug\net8.0\ref\StudentInfoApp.dll
+C:\Users\gusrm\OneDrive\바탕 화면\계산연습\obj\Debug\net8.0\StudentInfoApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gusrm\OneDrive\바탕 화면\계산연습\obj\Debug\net8.0\StudentInfoApp.AssemblyInfoInputs.cache
+C:\Users\gusrm\OneDrive\바탕 화면\계산연습\obj\Debug\net8.0\StudentInfoApp.AssemblyInfo.cs
+C:\Users\gusrm\OneDrive\바탕 화면\계산연습\obj\Debug\net8.0\StudentInfoApp.csproj.CoreCompileInputs.cache
+C:\Users\gusrm\OneDrive\바탕 화면\계산연습\obj\Debug\net8.0\StudentInfoApp.dll
+C:\Users\gusrm\OneDrive\바탕 화면\계산연습\obj\Debug\net8.0\refint\StudentInfoApp.dll
+C:\Users\gusrm\OneDrive\바탕 화면\계산연습\obj\Debug\net8.0\StudentInfoApp.pdb
+C:\Users\gusrm\OneDrive\바탕 화면\계산연습\bin\Debug\net8.0\StudentInfoApp.exe
+C:\Users\gusrm\OneDrive\바탕 화면\계산연습\bin\Debug\net8.0\StudentInfoApp.deps.json
+C:\Users\gusrm\OneDrive\바탕 화면\계산연습\bin\Debug\net8.0\StudentInfoApp.runtimeconfig.json
+C:\Users\gusrm\OneDrive\바탕 화면\계산연습\bin\Debug\net8.0\StudentInfoApp.dll
+C:\Users\gusrm\OneDrive\바탕 화면\계산연습\bin\Debug\net8.0\StudentInfoApp.pdb
+C:\Users\gusrm\OneDrive\바탕 화면\계산연습\obj\Debug\net8.0\StudentInfoApp.genruntimeconfig.cache
+C:\Users\gusrm\OneDrive\바탕 화면\계산연습\obj\Debug\net8.0\ref\StudentInfoApp.dll
