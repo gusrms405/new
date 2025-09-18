@@ -3,9 +3,17 @@ class Program
 {
     static void Main()
     {
-        Random rnd = new Random();
-        int number = rnd.Next(1, 101);
-        Console.WriteLine($"{number}");
+        int a = 0;
+        int b;
 
+        for (b = 1; b < 1000; b++)
+        {
+            if (b % 3 == 0 || b % 5 == 0)
+            {
+                a += b;
+            }
+
+        }
+        Console.WriteLine(a);
     }
 }
