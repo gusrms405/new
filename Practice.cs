@@ -1,19 +1,23 @@
 using System;
+using System.Collections;
+using System.Diagnostics.CodeAnalysis;
 class Program
 {
     static void Main()
     {
-        int a = 0;
-        int b;
+        int a = 1, b = 2, sum = 0;
 
-        for (b = 1; b < 1000; b++)
+        while (a <= 4000000)
         {
-            if (b % 3 == 0 || b % 5 == 0)
+            if (a % 2 == 0)
             {
-                a += b;
+                sum += a;
             }
 
+            int next = a + b;
+            a = b;
+            b = next;
         }
-        Console.WriteLine(a);
+        Console.WriteLine(sum);
     }
 }
