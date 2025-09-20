@@ -5,19 +5,29 @@ class Program
 {
     static void Main()
     {
-        int a = 1, b = 2, sum = 0;
+        // string text = " Hello World ";
 
-        while (a <= 4000000)
-        {
-            if (a % 2 == 0)
-            {
-                sum += a;
-            }
+        // text.Contains("World"); 특정 문자열 포함 여부(bool 반환)
+                                // true
+        // text.Replace("World", "C#"); 문자열 치환
 
-            int next = a + b;
-            a = b;
-            b = next;
-        }
-        Console.WriteLine(sum);
+        // text.Split(' ') 공백 기준으로 나누기 (배열 반환)
+        
+        // string text = " Hello World ";
+
+    // 1) 특정 문자열 포함 여부
+    bool hasWorld = text.Contains("World");
+    Console.WriteLine(hasWorld);  // true
+
+    // 2) 문자열 치환
+    string replaced = text.Replace("World", "C#");
+    Console.WriteLine(replaced);  // " Hello C# "
+
+    // 3) 공백 기준으로 나누기
+    string[] parts = text.Split(' ');
+    foreach (string part in parts)
+    {
+        Console.WriteLine($"[{part}]");
+
     }
 }
