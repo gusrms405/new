@@ -5,26 +5,27 @@ class Program
 {
     static void Main()
     {
-        int a = -10;
-        double b = 3.14159;
+        Console.WriteLine("1. 게임 시작\n2. 옵션\n3. 종료 ");
+        int choice = int.Parse(Console.ReadLine());
 
-        Math.Abs(a) // 절대값
+        switch (choice)
+        {
+            case 1:
+                Console.WriteLine("게임 시작");
+                break;
 
-        Math.Max(3, 7) // 큰 값 반환
+            case 2:
+                Console.WriteLine("옵션 선택됨");
+                break;
 
-        Math.Min(3, 7) // 작은 값 반환
+            case 3:
+                Console.WriteLine("게임 종료");
+                break;
 
-        Math.Pow(2, 3) // 제곱 2의 3승
-
-        Math.Sqrt(16) // 제곱근
-
-        Math.Round(b, 2) // 반올림(소수점 2자리)
-
-        Math.Floor(b) // 내림
-
-        Math.Ceiling(b) // 올림
-
-
+            default:
+                Console.WriteLine("잘못된 입력");
+                break;  
+        }
 
 
     }
