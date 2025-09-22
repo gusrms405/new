@@ -5,28 +5,21 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("1. 게임 시작\n2. 옵션\n3. 종료 ");
-        int choice = int.Parse(Console.ReadLine());
+        long n = 600851475143;
+        long factor = 2;
 
-        switch (choice)
+        while (n > 1)
         {
-            case 1:
-                Console.WriteLine("게임 시작");
-                break;
+            if (n % factor == 0)
+            {
+                n = n / factor;
+            }
 
-            case 2:
-                Console.WriteLine("옵션 선택됨");
-                break;
-
-            case 3:
-                Console.WriteLine("게임 종료");
-                break;
-
-            default:
-                Console.WriteLine("잘못된 입력");
-                break;  
+            else
+            {
+                factor++;
+            }
         }
-
-
+        Console.WriteLine(factor);
     }
 }
