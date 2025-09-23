@@ -5,21 +5,10 @@ class Program
 {
     static void Main()
     {
-        long n = 600851475143;
-        long factor = 2;
-
-        while (n > 1)
-        {
-            if (n % factor == 0)
-            {
-                n = n / factor;
-            }
-
-            else
-            {
-                factor++;
-            }
-        }
-        Console.WriteLine(factor);
+        int[] a = new int[5] { 2, 4, 5, 7, 8 }; //
+        int[,] b = new int[4, 6];
+        int[][] c = new int[5][]
+        
+        
     }
 }
