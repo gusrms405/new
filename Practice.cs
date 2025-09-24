@@ -5,10 +5,17 @@ class Program
 {
     static void Main()
     {
-        int[] a = new int[5] { 2, 4, 5, 7, 8 }; //
-        int[,] b = new int[4, 6];
-        int[][] c = new int[5][]
-        
+        List<string> names = new List<string>();
+        names.Add("James");
+        names.Add("Ari");
+
+        names.Insert(0, "felix");
+
+        Console.WriteLine(names[0]);
+
+        names.RemoveAt(1);
+        names.Remove("Ari");
+
         
     }
 }
