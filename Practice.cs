@@ -1,21 +1,21 @@
 using System;
 using System.Collections;
 using System.Diagnostics.CodeAnalysis;
+using System.Runtime.Versioning;
 class Program
 {
     static void Main()
     {
-        List<string> names = new List<string>();
-        names.Add("James");
-        names.Add("Ari");
-
-        names.Insert(0, "felix");
-
-        Console.WriteLine(names[0]);
-
-        names.RemoveAt(1);
-        names.Remove("Ari");
-
+        int i = 1, n = 10;
+        int sum = 0;
+        while (i <= n)
+        {
+            Console.WriteLine(i);
+            sum += i;
+            i = i + 2;
+        }
+        Console.WriteLine();
+        Console.WriteLine(sum);
         
     }
 }
