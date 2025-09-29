@@ -6,16 +6,18 @@ class Program
 {
     static void Main()
     {
-        int i = 1, n = 10;
-        int sum = 0;
-        while (i <= n)
+        
+
+        List<string> names = new List<string>();
+
+        names.Add("젤다");
+        names.Add("리쿵");
+        names.Add("가논");
+
+        foreach (string name in names)
         {
-            Console.WriteLine(i);
-            sum += i;
-            i = i + 2;
+            Console.WriteLine(name);
         }
-        Console.WriteLine();
-        Console.WriteLine(sum);
         
     }
 }
