@@ -7,22 +7,22 @@ class Program
 {
     static void Main()
     {
-        int[][] numbers = new int[3][];
-        numbers[0] = new int[] { 3, 7, 12, 20 };
-        numbers[1] = new int[] { 0, 5, 15 };
-        numbers[2] = new int[] { 8, 9, 14, 18, 2 };
+        int[] numbers = new int[10] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
-        for (int i = 0; i < numbers.Length; i++)
+        int left = 0;
+        int right = numbers.Length - 1; // left 0 , right 4 배열의 길이(원수의 개수)
+
+        while (left < right)
         {
-            for (int j = 0; j < numbers[i].Length; j++)
-            {
-                if (numbers[i][j] > 10)
-                    Console.WriteLine(numbers[i][j]);
-            }
+            int temp = numbers[left];
+            numbers[left] = numbers[right];
+            numbers[right] = temp;
 
-
+            left++;
+            right--;
         }
-        
+
+        Console.WriteLine(string.Join(" ", numbers));
 
     }
 }
