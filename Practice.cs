@@ -7,22 +7,25 @@ class Program
 {
     static void Main()
     {
-        int[] numbers = new int[10] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+        bool[,] flags = new bool[5, 5];
 
-        int left = 0;
-        int right = numbers.Length - 1; // left 0 , right 4 배열의 길이(원수의 개수)
-
-        while (left < right)
+        for (int i = 0; i < 5; i++)
         {
-            int temp = numbers[left];
-            numbers[left] = numbers[right];
-            numbers[right] = temp;
-
-            left++;
-            right--;
+            for (int j = 0; j < 5; j++)
+            {
+                if (i > j)
+                    flags[i, j] = true;
+                else
+                    flags[i, j] = false;
+            }
         }
-
-        Console.WriteLine(string.Join(" ", numbers));
-
+        for (int i = 0; i < flags.GetLength(0); i++)   // 행
+        {
+            for (int j = 0; j < flags.GetLength(1); j++) // 열
+            {
+                Console.Write(flags[i, j] + "\t"); // \t는 탭 간격
+            }
+            Console.WriteLine(); // 행이 끝나면 줄바꿈
+        }
     }
 }
