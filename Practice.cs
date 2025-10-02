@@ -1,31 +1,33 @@
 using System;
 using System.Collections;
-using System.Diagnostics;
-using System.Diagnostics.CodeAnalysis;
-using System.Runtime.Versioning;
+
 class Program
 {
     static void Main()
     {
-        bool[,] flags = new bool[5, 5];
+        List<int> results = new List<int>();
 
-        for (int i = 0; i < 5; i++)
+        for (int i = 1; i <= 1000; i++)
         {
-            for (int j = 0; j < 5; j++)
+            string s = i.ToString();
+
+            bool only = true;
+
+            foreach (char c in s)
             {
-                if (i > j)
-                    flags[i, j] = true;
-                else
-                    flags[i, j] = false;
+                if (c != '0' && c != '5')
+                {
+                    only = false;
+                    break;
+                }
+            }
+
+            if (only)
+            {
+                results.Add(i);
             }
         }
-        for (int i = 0; i < flags.GetLength(0); i++)   // 행
-        {
-            for (int j = 0; j < flags.GetLength(1); j++) // 열
-            {
-                Console.Write(flags[i, j] + "\t"); // \t는 탭 간격
-            }
-            Console.WriteLine(); // 행이 끝나면 줄바꿈
-        }
+            Console.WriteLine(string.Join(" ", results));
+
     }
 }
