@@ -1,33 +1,28 @@
 using System;
 using System.Collections;
+using System.Diagnostics.SymbolStore;
 
 class Program
 {
     static void Main()
     {
-        List<int> results = new List<int>();
+        Dictionary<string, int> monster = new Dictionary<string, int>();
 
-        for (int i = 1; i <= 1000; i++)
+        monster.Add("슬라임", 10);
+        monster.Add("고블린", 20);
+        monster.Add("프라임", 45);
+
+        int sum = 0;
+        int count = 0;
+
+        foreach (var pair in monster)
         {
-            string s = i.ToString();
-
-            bool only = true;
-
-            foreach (char c in s)
-            {
-                if (c != '0' && c != '5')
-                {
-                    only = false;
-                    break;
-                }
-            }
-
-            if (only)
-            {
-                results.Add(i);
-            }
+            sum += pair.Value;
+            count++;
         }
-            Console.WriteLine(string.Join(" ", results));
 
+        double average = (double)sum / count;
+
+        Console.WriteLine("평균 경험치: " + average);
     }
 }
