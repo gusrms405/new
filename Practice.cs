@@ -6,23 +6,29 @@ class Program
 {
     static void Main()
     {
-        Dictionary<string, int> monster = new Dictionary<string, int>();
+        int[][] a = new int[5][];
+        List<int> b = new List<int>();
 
-        monster.Add("슬라임", 10);
-        monster.Add("고블린", 20);
-        monster.Add("프라임", 45);
+        a[0] = new int[] { 1, 2, 3, 4 };
+        a[1] = new int[] { 5, 8, 11, 41 };
+        a[2] = new int[] { 6, 1, 4, 4 };
+        a[3] = new int[] { 1, 2, 3, 4 };
+        a[4] = new int[] { 1, 2, 3, 4 };
 
-        int sum = 0;
-        int count = 0;
-
-        foreach (var pair in monster)
+        foreach (int[] numbers in a)
         {
-            sum += pair.Value;
-            count++;
+            foreach (int number in numbers)
+            {
+                if (number > 10)
+                {
+                    b.Add(number);
+                }
+            }
         }
 
-        double average = (double)sum / count;
-
-        Console.WriteLine("평균 경험치: " + average);
+        foreach (int n in b)
+        {
+            Console.WriteLine(n);
+        }
     }
 }
